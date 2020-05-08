@@ -1,0 +1,57 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: white;
+    background: #333;
+}
+.d3-tip{
+    background-color: rgb(2, 20, 71);
+    border-radius: 9px;
+    color: #00aeff;
+    padding: 0.5em;
+    text-align: center;
+}
+
+section{
+    width: 120vw;
+    overflow: visible;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: transparent;
+    box-shadow: 10px 10px 10px #1f1f1f, -5px -5px 10px #3b3b3b;
+}
+section h1, section h3{
+    text-align: center;
+    color:#00aeff
+}
+svg{
+    stroke-width: 1;
+    stroke: wheat;
+}
+section .y-axis text, 
+section .x-axis text, 
+section .legend text{
+    stroke-width: 0;
+    fill: #fa726d;
+} 
+section .cell{
+    stroke-width: 0;
+}
+section .cell:hover{
+    stroke-width: 2;
+    stroke: black;
+}
+section footer{
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
